@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Lab 09-Form Layout</title>
+		<link rel="icon" href="Image/W3icon.png">
+	</head>
+	
+	<body>
+		<form method="get" action="" target="">
+		<label>Select Course:</label>
+			<Select name="course-name">
+				<option>Web Design</option>
+				<option>Digital Marketing</option>
+				<option>Graphics Design</option>
+			</Select>
+			
+			<!--
+			<label>Select Course:</label>
+			<select name="Course-Name" required>
+				<option value="">Select Option</option>
+				<option value="Marketing">Digital Marketing</option>
+				<option value="Graphics">Graphics Design</option>
+				<option value="Web">Web Design</option>
+			</select>
+			-->
+			
+			<br>
+			<br>
+			<label>Choose Shift:</label><br>
+			<input type="checkbox" name="select-shift" value="morning"> <label>Morning Shift</label>
+			<input type="checkbox" name="select-shift" value="day"> <label>Day Shift</label>
+			<input type="checkbox" name="select-shift" value="evening"> <label>Evening Shift</label>
+			<input type="checkbox" name="select-shift" value="weekend"> <label>Weekend Shift</label>
+			
+			<br>
+			<br>
+			<label>Select Project:</label>
+			<input type="radio" name="select project" value="one"> <label>1</label>
+			<input type="radio" name="select project" value="two"> <label>2</label>
+			<input type="radio" name="select project" value="three"> <label>3</label>
+			<input type="radio" name="select project" value="four"> <label>4</label>
+			<input type="radio" name="select project" value="five"> <label>5</label>
+			<hr>
+			
+			<input type="color">
+			<br>
+			<input type="datetime-local">
+			<br>
+			<label>Upload your Photo:</label>
+			<input type="file">
+			<br>
+			<label>Search your Product:</label>
+			<input type="search">
+			<br>
+			<label>Search your FB URL:</label>
+			<input type="url">
+			<hr>
+		
+			<label>Institute:</label>
+			<input type="text" name="Common" value="Govt. Titumir College" readonly>
+			<br>
+			<label for="student-name">Student name:*</label>
+			<input type="text" name="std-name" id="student-name" value="" placeholder="Student Name" required autofocus autocomplete="off">
+			<br>
+			<label for="student-email">Email</label>
+			<input type="email" name="std-email" id="student-email" value="someone@gmail.com">
+			<br>
+			<label for="password">Password</label>
+			<input type="password" id="password" value="" placeholder="Password">
+			<br>
+			<label for="reg">Reg. number</label>
+			<input type="number" name="reg-no" id="reg" value="71711" min="0" max="">
+			<br>
+			<label for="phone">Phone Number</label>
+			<input type="tel" name="phone-no" id="phone" value="01">
+			<br>
+			<label for="dob">Date of birth</label>
+			<input type="date" name="DOB" id="dob" value="">
+			<br>
+			<input type="submit" value="Save">
+			<input type="Reset" value="clear">
+			
+		</form>
+	</body>
+</html>
